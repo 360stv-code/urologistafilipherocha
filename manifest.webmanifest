@@ -1,0 +1,9 @@
+{
+  "name": "Dr. Filiphe Rocha — Urologia e Saúde do Homem",
+  "short_name": "Dr. Filiphe Rocha",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#f4efe6",
+  "theme_color": "#0f3d3e",
+  "icons": [{ "src": "img/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
