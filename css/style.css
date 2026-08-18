@@ -100,7 +100,8 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 600; line-height: 1.15;
 .nav { display: flex; align-items: center; gap: 26px; }
 .nav a { font-size: 0.95rem; font-weight: 500; color: var(--tinta); }
 .nav a:hover { color: var(--cobre); }
-.nav-cta { padding: 10px 20px; font-size: 0.9rem; }
+.nav-cta { padding: 10px 20px; font-size: 0.9rem; background: #1fa855; color: #fff; border-color: #1fa855; }
+.nav-cta:hover { background: #178c46; color: #fff; }
 .menu-toggle { display: none; background: none; border: none; cursor: pointer; padding: 8px; }
 .menu-toggle span { display: block; width: 24px; height: 2px; background: var(--petroleo); margin: 5px 0; transition: .3s; }
 
@@ -226,6 +227,9 @@ section { padding: 78px 0; }
 .footer-brand p { margin-top: 14px; max-width: 34ch; line-height: 1.6; }
 .footer-bottom { border-top: 1px solid rgba(244,239,230,0.15); padding-top: 24px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; font-size: 0.85rem; }
 .footer-legal { max-width: 60ch; opacity: 0.7; font-size: 0.82rem; line-height: 1.6; margin-top: 14px; }
+.social-row { display: flex; gap: 12px; margin-top: 6px; }
+.social-row a { display: grid; place-items: center; width: 40px; height: 40px; border-radius: 10px; background: rgba(244,239,230,0.1); color: var(--areia); margin: 0; transition: background .2s, transform .2s; }
+.social-row a:hover { background: var(--cobre); color: #fff; transform: translateY(-2px); }
 
 /* ---------- WhatsApp flutuante ---------- */
 .wa-float {
