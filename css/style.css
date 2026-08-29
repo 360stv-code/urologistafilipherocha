@@ -263,6 +263,10 @@ section { padding: 78px 0; }
 }
 .callout p { margin: 0; font-size: 0.98rem; }
 .content-layout { display: grid; grid-template-columns: 1fr 320px; gap: 56px; align-items: start; }
+.author-box { display: flex; gap: 18px; align-items: center; background: var(--areia-200); border-radius: var(--radius); padding: 22px 24px; margin: 40px 0 10px; }
+.author-box img { width: 68px; height: 68px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
+.author-box .author-name { font-family: var(--serif); font-weight: 600; color: var(--petroleo); font-size: 1.1rem; }
+.author-box .author-role { font-size: 0.9rem; color: var(--tinta-mute); margin-top: 2px; }
 .sidebar-card {
   background: var(--petroleo); color: var(--areia); border-radius: var(--radius);
   padding: 32px 28px; position: sticky; top: 100px;
