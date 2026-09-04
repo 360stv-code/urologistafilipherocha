@@ -359,3 +359,6 @@ section { padding: 78px 0; }
 .crm-badge { background: var(--petroleo); color: var(--areia) !important; padding: 6px 14px; border-radius: 999px; }
 .crm-badge b { color: var(--cobre-claro) !important; display: inline !important; font-size: 1rem !important; }
 .brand-name small { line-height: 1.3; }
+
+/* nota ao lado das estrelas */
+.stars-num { color: var(--petroleo); font-weight: 700; font-family: var(--sans); font-size: 0.9rem; margin-left: 4px; }
