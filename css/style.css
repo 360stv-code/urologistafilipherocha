@@ -354,3 +354,8 @@ section { padding: 78px 0; }
 .carousel-btn { width: 46px; height: 46px; border-radius: 50%; border: 1.5px solid var(--linha); background: var(--branco); color: var(--petroleo); cursor: pointer; display: grid; place-items: center; transition: all .2s; }
 .carousel-btn:hover { background: var(--petroleo); color: var(--areia); border-color: var(--petroleo); transform: translateY(-2px); }
 @media (max-width: 900px) { .reviews-track .review { flex: 0 0 85%; } }
+
+/* ---------- CRM destacado ---------- */
+.crm-badge { background: var(--petroleo); color: var(--areia) !important; padding: 6px 14px; border-radius: 999px; }
+.crm-badge b { color: var(--cobre-claro) !important; display: inline !important; font-size: 1rem !important; }
+.brand-name small { line-height: 1.3; }
