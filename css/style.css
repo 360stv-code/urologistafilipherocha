@@ -13,7 +13,7 @@
   --cobre: #9a5730;
   --cobre-claro: #c98a5e;
   --tinta: #1a2422;
-  --tinta-mute: #4a544f;
+  --tinta-mute: #454f4a;
   --branco: #ffffff;
   --linha: #dcd3c4;
 
@@ -362,3 +362,7 @@ section { padding: 78px 0; }
 
 /* nota ao lado das estrelas */
 .stars-num { color: var(--petroleo); font-weight: 700; font-family: var(--sans); font-size: 0.9rem; margin-left: 4px; }
+
+/* ---------- Imagem de destaque no artigo ---------- */
+.article-hero-img { width: 100%; border-radius: var(--radius); margin: 0 0 28px; box-shadow: var(--shadow-sm); aspect-ratio: 3/2; object-fit: cover; }
+@media (max-width: 560px) { .article-hero-img { aspect-ratio: 4/3; object-position: center 30%; } }
