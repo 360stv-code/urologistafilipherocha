@@ -23,3 +23,13 @@ document.querySelectorAll('.faq-q').forEach(btn => {
 // Ano dinâmico no rodapé
 const yearEl = document.getElementById('year');
 if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+// Carrossel de avaliações
+const track = document.getElementById('reviewsTrack');
+if (track) {
+  const prev = document.getElementById('revPrev');
+  const next = document.getElementById('revNext');
+  const scrollAmt = () => track.querySelector('.review')?.offsetWidth + 22 || 320;
+  if (prev) prev.addEventListener('click', () => track.scrollBy({ left: -scrollAmt(), behavior: 'smooth' }));
+  if (next) next.addEventListener('click', () => track.scrollBy({ left: scrollAmt(), behavior: 'smooth' }));
+}
